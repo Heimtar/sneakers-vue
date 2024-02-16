@@ -1,0 +1,218 @@
+{
+  "itemsv": [
+    {
+      "id": "1",
+      "title": "Кроссовки мужские Kike Air Pofs Super",
+      "cost": 12434,
+      "imageUrl": "/sneakers/sneakers-1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Кроссовки мужские Abibos Super foo 2000",
+      "cost": 13555,
+      "imageUrl": "/sneakers/sneakers-2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Кроссовки мужские Adagaz Mighty Pro 12",
+      "cost": 15045,
+      "imageUrl": "/sneakers/sneakers-3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Кроссовки мужские Kuma Lumppa Dumps 23",
+      "cost": 16548,
+      "imageUrl": "/sneakers/sneakers-4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Кроссовки мужские Tappa Like Poppa 99",
+      "cost": 52843,
+      "imageUrl": "/sneakers/sneakers-5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Кроссовки мужские Kuma Light netroniks-2022",
+      "cost": 22876,
+      "imageUrl": "/sneakers/sneakers-6.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Кроссовки мужские Adagaz Mamba Tampo 43",
+      "cost": 11033,
+      "imageUrl": "/sneakers/sneakers-7.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Кроссовки мужские Abibos Silver Head 1",
+      "cost": 12443,
+      "imageUrl": "/sneakers/sneakers-8.jpg"
+    }
+  ],
+  "cartv": [],
+  "favoritesv": [],
+  "ordersv": [
+    {
+      "items": [
+        {
+          "id": "2",
+          "title": "Кроссовки мужские Abibos Super foo 2000",
+          "cost": 13555,
+          "imageUrl": "/sneakers/sneakers-2.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 2
+        },
+        {
+          "id": "7",
+          "title": "Кроссовки мужские Adagaz Mamba Tampo 43",
+          "cost": 11033,
+          "imageUrl": "/sneakers/sneakers-7.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 1
+        }
+      ],
+      "totalPrice": 24588,
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "id": "2",
+          "title": "Кроссовки мужские Abibos Super foo 2000",
+          "cost": 13555,
+          "imageUrl": "/sneakers/sneakers-2.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 2
+        },
+        {
+          "id": "3",
+          "title": "Кроссовки мужские Adagaz Mighty Pro 12",
+          "cost": 15045,
+          "imageUrl": "/sneakers/sneakers-3.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        },
+        {
+          "id": "7",
+          "title": "Кроссовки мужские Adagaz Mamba Tampo 43",
+          "cost": 11033,
+          "imageUrl": "/sneakers/sneakers-7.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 1
+        }
+      ],
+      "totalPrice": 39633,
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "id": "8",
+          "title": "Кроссовки мужские Abibos Silver Head 1",
+          "cost": 12443,
+          "imageUrl": "/sneakers/sneakers-8.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        },
+        {
+          "id": "1",
+          "title": "Кроссовки мужские Kike Air Pofs Super",
+          "cost": 12434,
+          "imageUrl": "/sneakers/sneakers-1.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 3
+        },
+        {
+          "id": "2",
+          "title": "Кроссовки мужские Abibos Super foo 2000",
+          "cost": 13555,
+          "imageUrl": "/sneakers/sneakers-2.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 2
+        }
+      ],
+      "totalPrice": 38432,
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "id": "5",
+          "title": "Кроссовки мужские Tappa Like Poppa 99",
+          "cost": 52843,
+          "imageUrl": "/sneakers/sneakers-5.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        },
+        {
+          "id": "3",
+          "title": "Кроссовки мужские Adagaz Mighty Pro 12",
+          "cost": 15045,
+          "imageUrl": "/sneakers/sneakers-3.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        }
+      ],
+      "totalPrice": 67888,
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "id": "7",
+          "title": "Кроссовки мужские Adagaz Mamba Tampo 43",
+          "cost": 11033,
+          "imageUrl": "/sneakers/sneakers-7.jpg",
+          "isAdded": true,
+          "isFavorite": true,
+          "favoriteId": 1
+        },
+        {
+          "id": "3",
+          "title": "Кроссовки мужские Adagaz Mighty Pro 12",
+          "cost": 15045,
+          "imageUrl": "/sneakers/sneakers-3.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        }
+      ],
+      "totalPrice": 26078,
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "id": "2",
+          "title": "Кроссовки мужские Abibos Super foo 2000",
+          "cost": 13555,
+          "imageUrl": "/sneakers/sneakers-2.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        },
+        {
+          "id": "7",
+          "title": "Кроссовки мужские Adagaz Mamba Tampo 43",
+          "cost": 11033,
+          "imageUrl": "/sneakers/sneakers-7.jpg",
+          "isAdded": true,
+          "isFavorite": false,
+          "favoriteId": null
+        }
+      ],
+      "totalPrice": 24588,
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(107 114 128);
+    font-family: Raleway, serif;
+}
+* {
+    font-family: Raleway, serif;
+  }
