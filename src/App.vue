@@ -22,7 +22,7 @@ const disableCartButton = computed(() => isCreatingOrder.value || emptyCart.valu
 const createOrder = async () => {
   try {
     isCreatingOrder.value = true
-    const { data } = axios.post('http://localhost:3001/ordersv', {
+    const { data } = axios.post('https://test-api-xih4.onrender.com/ordersv', {
       items: cartv.value,
       totalPrice: totalPrice.value
     })

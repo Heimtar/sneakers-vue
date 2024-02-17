@@ -7,7 +7,7 @@ const favoritesv = ref([])
 
 onMounted(async () => {
   try {
-    const { data } = await axios.get('http://localhost:3001/favoritesv')
+    const { data } = await axios.get('https://test-api-xih4.onrender.com/favoritesv')
 
     favoritesv.value = data.map((obj) => obj.item)
 

@@ -21,7 +21,7 @@ const fetchItems = async () => {
     if (filters.q) {
       params.q = filters.q
     }
-    const { data } = await axios.get('http://localhost:3001/itemsv', { params })
+    const { data } = await axios.get('https://test-api-xih4.onrender.com/itemsv', { params })
     itemsv.value = data.map((obj) => ({
       ...obj,
       isAdded: false,
@@ -35,7 +35,7 @@ const fetchItems = async () => {
 }
 const fetchFavorites = async () => {
   try {
-    const { data: favoritesv } = await axios.get('http://localhost:3001/favoritesv')
+    const { data: favoritesv } = await axios.get('https://test-api-xih4.onrender.com/favoritesv')
     itemsv.value = itemsv.value.map((item) => {
       const favorite = favoritesv.find((favorite) => favorite.parentId === item.id)
       if (!favorite) {
@@ -78,12 +78,12 @@ const addToFavorite = async (item) => {
         item
       }
       item.isFavorite = true
-      const { data } = await axios.post('http://localhost:3001/favoritesv', obj)
+      const { data } = await axios.post('https://test-api-xih4.onrender.com/favoritesv', obj)
 
       item.favoriteId = data.id
     } else {
       item.isFavorite = false
-      await axios.delete(`http://localhost:3001/favoritesv/${item.favoriteId}`)
+      await axios.delete(`https://test-api-xih4.onrender.com/favoritesv/${item.favoriteId}`)
       item.favoriteId = null
     }
   } catch (error) {
