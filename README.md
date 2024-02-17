@@ -2,12 +2,13 @@
 
 Использовались:
 
-Vue 3
-vue-router
-json-server 
-axios 
-auto-animate (плавная анимация фильтрации, сортировки, удаления)
-lodash.debounce (уменьшение количества запросов на сервер при вводе в строке поиска)
+- Vue 3
+- vue-router
+- json-server
+- axios
+- auto-animate (плавная анимация фильтрации, сортировки, удаления)
+- lodash.debounce (уменьшение количества запросов на сервер при вводе в строке поиска)
 
 база данных на бесплатном хостинге - задержка до 50сек на первую прогрузку!
-Сайт доступен по адресу https://sneakers-drw3xkk72-romans-projects-3bc973f0.vercel.app/
+
+- Сайт доступен по адресу https://sneakers-vue-beta.vercel.app/
